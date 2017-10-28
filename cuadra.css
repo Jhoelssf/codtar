@@ -9,6 +9,9 @@
     border-left: 0px solid transparent;
     border-right: 23px solid transparent;
     border-bottom: 100px solid #428BCA;
+    animation-duration: 3s;
+    animation-fill-mode: both;
+    animation-timing-function: ease-in-out;
 }
 #cuadrado2{
     position: absolute;
@@ -21,6 +24,7 @@
     border-left: 23px solid transparent;
     border-right: 0px solid transparent;
     border-bottom: 100px solid #ca232b;
+
 }
 
 .animacion {
@@ -77,4 +81,7 @@
     border-left: 23px solid transparent;
     border-right: 0px solid transparent;
     border-bottom: 100px solid #3bca31;
+    animation-duration: 3s;
+    animation-fill-mode: both;
+    animation-timing-function: ease-in-out;
 }
