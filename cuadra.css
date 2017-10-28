@@ -1,0 +1,80 @@
+#cuadrado1{
+    position: absolute;
+    height: 0px;
+    width: 75px;
+    top: 215px;
+    left: 400px;
+    transform: rotate(270deg);
+    border-top: 0px solid transparent;
+    border-left: 0px solid transparent;
+    border-right: 23px solid transparent;
+    border-bottom: 100px solid #428BCA;
+}
+#cuadrado2{
+    position: absolute;
+    height: 0px;
+    width: 75px;
+    top: 320px;
+    left: 400px;
+    transform: rotate(270deg);
+    border-top: 0px solid transparent;
+    border-left: 23px solid transparent;
+    border-right: 0px solid transparent;
+    border-bottom: 100px solid #ca232b;
+}
+
+.animacion {
+    animation-duration: 3s;
+    animation-fill-mode: both;
+    animation-timing-function: ease-in-out;
+}
+@keyframes bounceInLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-2000px);
+    }
+    60% {
+        opacity: 1;
+        transform: translateX(30px);
+        transform: rotate(270deg);
+    }
+    80% {
+        transform: translateX(-10px);
+        transform: rotate(270deg);
+    }
+    100% {
+        transform: translateX(0);
+        transform: rotate(270deg);
+    }
+}
+.bounceInLeft{
+    -webkit-animation-name: bounceInLeft;
+}
+
+#cuadrado3{
+    position: absolute;
+    height: 0px;
+    width: 100px;
+    top: 203px;
+    left: 495px;
+    transform: rotate(270deg);
+    border-top: 0px solid transparent;
+    border-left: 0px solid transparent;
+    border-right: 23px solid transparent;
+    border-bottom: 100px solid #bfca2c;
+    animation-duration: 3s;
+    animation-fill-mode: both;
+    animation-timing-function: ease-in-out;
+}
+#cuadrado4{
+    position: absolute;
+    height: 0px;
+    width: 100px;
+    top: 333px;
+    left: 495px;
+    transform: rotate(270deg);
+    border-top: 0px solid transparent;
+    border-left: 23px solid transparent;
+    border-right: 0px solid transparent;
+    border-bottom: 100px solid #3bca31;
+}
